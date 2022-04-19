@@ -1,0 +1,61 @@
+.overlayLoginSection {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: white;
+    display: none;
+    z-index: 999;
+    background-image: url('https://images.unsplash.com/photo-1508615039623-a25605d2b022?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bG9naW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.overlayThings {
+    padding: 15px;
+}
+
+.overlayLogin {
+    margin: 5% auto;
+    text-align: center;
+}
+
+.loginHeading {
+    margin-bottom: 20px;
+}
+
+.overlayButton {
+    margin: 15px 0;
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.overlayHeading {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.okayButton {
+    width: 20%;
+    /* margin-top: 10%; */
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 10px;
+    color: red;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.overlayTrue {
+    display: block;
+}

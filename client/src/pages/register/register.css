@@ -1,0 +1,89 @@
+.registerSection {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.registerFormContainer {
+    background-color: white;
+    width: 30%;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.registerHeading {
+    font-size: 25px;
+    font-weight: 600;
+    color: teal;
+    text-align: center;
+    padding: 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.groupLabel {
+    color: #444;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.groupInput {
+    font-size: 16px;
+    width: 80%;
+    padding: 8px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    color: #444;
+}
+.groupInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    font-size: 17px;
+    text-align: center;
+    background-color: teal;
+    width: 20%;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.switch {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.switchPara {
+    color: #444;
+    margin-right: 30px;
+}
+
+.switchSpan {
+    color:  blue;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 15px;
+}
+
+.errorText {
+    padding: 8px 15px;
+    color: red;
+    margin-left: 10px;
+}

@@ -1,0 +1,45 @@
+.footer-section {
+    width: 100vw;
+    
+}
+
+.footer-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-span-container {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.footer-span-container-social {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerSocialIcon {
+    font-size: x-large;
+}
+
+.footer-span {
+    color: #666;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.footerCopyright {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.footerCopyPara {
+    color: #666;
+    margin-bottom: 3px;
+}

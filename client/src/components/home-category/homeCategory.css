@@ -1,0 +1,43 @@
+.homeCategory-section {
+    width: 100%;
+    margin-bottom: 45px;
+    position: relative;
+}
+
+.heading {
+    font-size: 22px;
+    margin: 15px auto;
+    display: grid;
+    place-items: center;
+    color: rgb(221, 77, 77);
+    cursor: pointer;
+}
+
+.underline {
+    width: 40%;
+    margin: 10px auto;
+    border-top: 2px dashed rgb(221, 77, 77);
+}
+
+.homeCategory-products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.viewMoreButtonContainer {
+    display: grid;
+    place-items: 'center';
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.viewMoreButton {
+    background-color: transparent;
+    border: 2px solid gray;
+    padding: 5px 20px;
+    border-radius: 6px;
+    color: #444;
+    cursor: pointer;
+}
